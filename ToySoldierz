@@ -2,10 +2,6 @@
 ToySoldierz Script made by Celery Scripting Team
 ]]--
 
---[[
-ToySoldierz Script made by Celery Scripting Team
-]]--
-
 if not game:IsLoaded() then
 	game.Loaded:Wait();
 end
