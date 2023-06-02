@@ -2,6 +2,10 @@
 ToySoldierz Script made by Celery Scripting Team
 ]]--
 
+--[[
+ToySoldierz Script made by Celery Scripting Team
+]]--
+
 if not game:IsLoaded() then
 	game.Loaded:Wait();
 end
@@ -18,6 +22,7 @@ local LoadBuildRemote = game:GetService("ReplicatedStorage"):WaitForChild("Clien
 local StartWaveRemote = game:GetService("ReplicatedStorage"):WaitForChild("ClientServerRemotes"):WaitForChild("StartWave");
 local LoadBuildArgs = {[1]=SaveSlot};
 local StartWaveArgs = {[1]=WaveInputEasy,[2]=DifficultyInput};
+local Notez = Autofarms:Label("NOTE: For saves you have to put slot before it ex: Slot1");
 local WaveSelected = Autofarms:Label("Selected Wave: None!");
 local DifficultySelected = Autofarms:Label("Selected Difficulty: None!");
 local SlotSelected = Autofarms:Label("Selected Save Slot: None!");
